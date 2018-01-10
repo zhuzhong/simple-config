@@ -1,3 +1,4 @@
+
 #简单配置管理服务
 
 ##概述
@@ -43,7 +44,7 @@
 ###服务端spring配置示例
 
 	
-<bean id="configSrcService" class="com.z.config.server.service.support.ConfigSrcServiceImpl">
+	<bean id="configSrcService" class="com.z.config.server.service.support.ConfigSrcServiceImpl">
 	<property name="configDao" ref="configDao"/>
 	<property name="refreshLocalConfigListener" ref="refreshLocalConfigListener" />
 	</bean>
